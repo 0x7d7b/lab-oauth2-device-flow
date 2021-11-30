@@ -4,7 +4,7 @@ This is an experimental Python script for OAuth2 device flow tryouts.
 
 ## Preparation
 
-You need to have access on an authorization server which supports the device flow. I ran tests with [Okta](https://developer.okta.com/) and [Github](https://github.com/settings/developers).
+You need to have access on an authorization server which supports the device flow. I ran tests with [Okta](https://developer.okta.com/blog/2019/02/19/add-oauth-device-flow-to-any-server) and [Github](https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps).
 
 Some dependencies are required which can be easily installed with `pipenv`:
 
