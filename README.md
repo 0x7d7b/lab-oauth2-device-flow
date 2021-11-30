@@ -18,7 +18,14 @@ Alternatively, run a command inside the virtualenv with pipenv run.
 
 ## Usage
 
-First exchange the client id and the authorization server endpoints in the script.
+First exchange the client id and the authorization server endpoints in the script. These are my properties for running tests against GitHub:
+
+```python
+authorize_endpoint = 'https://github.com/login/device/code'
+token_endpoint = 'https://github.com/login/oauth/access_token'
+client_id = 'd7ad6beea9f98fd6adef'  # Just this test script.
+scopes = 'read:user user:email read:gpg_key read:public_key'
+```
 
 Then simply run it and follow the instructions printed on the console. As a result you should see a valid access token which can be used, now.
 
