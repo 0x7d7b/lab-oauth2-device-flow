@@ -29,7 +29,7 @@ scopes = 'read:user user:email read:gpg_key read:public_key'
 
 Then simply run it and follow the instructions printed on the console. When opening the provided link in your browser it will ask you to type in the activation code:
 
-![GitHub device flow page](./img/github-device-flow.png)
+![GitHub device flow page](img/github-device-flow.png?raw=true)
 
 As a result you should see a valid access token which can be used, now.
 
