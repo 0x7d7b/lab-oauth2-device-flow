@@ -44,3 +44,9 @@ Waiting for activation (max 899 seconds)...
   "scope": "read:gpg_key,read:public_key,read:user,user:email"
 }
 ```
+
+You can now try the provided access token e.g. against the GitHub API (or any other service which allows their users to login with GitHub):
+
+```shell
+curl -H'Authorization: Bearer gho_sCJG47YoU4AWIroJwQ7O4xRMLbiBWt4I6Z8e' https://api.github.com/users/your_username
+```
